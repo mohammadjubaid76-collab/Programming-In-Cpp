@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+void fib(int n)
+{
+    int f0=0,f1=1,f,count=0;
+    while(count<n)
+    {
+        count<<f0<<"Fibonacci Series";
+        f=f0+f1;
+        f0=f1;
+        count++;
+    }
+}
+int main ()
+{
+    int terms;
+    cout<<"enter how many terms to be printed:";
+    cin>>terms;
+
+    fib(terms);
+    return 0;
+}
