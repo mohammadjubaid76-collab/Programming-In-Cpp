@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+class A{
+   private: 
+   int x=10;
+   friend class B;
+};\
+class B{
+    public:
+    void show(A obj) {
+        cout<<obj.x;
+    }
+};
+int main(){
+    A a;
+    B b; 
+    b.show(a);
+    return 0;
+
+}
