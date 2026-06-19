@@ -1,8 +1,13 @@
 #include<iostream>
 using namespace std;
+int main(){
+    int n;
+    cout<<"Enter a number";
+    cin>>n;
+    int sum = 0;
+    for (int i=1;i<=n; i++) {
+        sum +=1;
+    }
 
-int main() {
-    cout<<"ITM University";
 
-    return 0;
 }
