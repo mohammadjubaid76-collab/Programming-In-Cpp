@@ -26,7 +26,7 @@ public:
  
  void display() {
    cout <<"\nRoll Number=" <<roll <<endl;
-   cout <<"Marks= <<marks <<endl";
+   cout <<"Marks=" << marks << endl;
  }
 };
  
